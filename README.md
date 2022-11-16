@@ -39,7 +39,7 @@ variable is like a container which stores data inside, hence, whenever you defin
 
 #### Note: a variable name cannot start with a number, it must always start with a letter character.
 
-### Reading user input
+## Reading user input
 To get input from the terminal, we use the read command. this command takes and stores the character entered on the terminal. To take in multiple input from the user, we simply add multiple storage for the input in front of the read command. eg to take in three different names from the user we can say
 ##### #!/bin/bash
 
