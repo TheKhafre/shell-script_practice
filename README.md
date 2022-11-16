@@ -39,7 +39,7 @@ variable is like a container which stores data inside, hence, whenever you defin
 
 #### Note: a variable name cannot start with a number, it must always start with a letter character.
 
-## Reading user input
+### Reading user input
 To get input from the terminal, we use the read command. this command takes and stores the character entered on the terminal. To take in multiple input from the user, we simply add multiple storage for the input in front of the read command. eg to take in three different names from the user we can say
 ##### #!/bin/bash
 
@@ -68,7 +68,7 @@ read the input of users as an array, we use the -a flag with the read command. a
 ##### read -a usr_names
 ##### echo "the third name entered is: ${usr_names[2]}"
 
-### if-statement
+## if-statement
 This is a conditional statement that is used to check some things/parameters in the. the script will only go on to complete the other part of the if-statement, if and only if the condition of the if statement is checked to be true. 
 to pass an if-statement in shell scripting, we use:
 ##### #!/bin/bash
